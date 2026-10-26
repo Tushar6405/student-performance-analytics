@@ -1,0 +1,106 @@
+
+======================================================================
+1. DATASET OVERVIEW
+======================================================================
+Records: 20  |  Columns: 9
+Columns: Student_ID, Name, Department, Maths, Physics, Chemistry, English, Computer_Science, Attendance
+Missing values: 0
+  Student_ID          Name        Department  Maths  Physics  Chemistry  English  Computer_Science  Attendance
+0       S101  Aarav Sharma  Computer Science     88       79         82       75                94          92
+1       S102   Priya Patel  Computer Science     92       85         88       90                96          95
+2       S103   Rohan Mehta       Electronics     67       72         65       70                74          81
+3       S104    Sneha Iyer        Mechanical     55       48         52       60                58          76
+4       S105   Karan Singh       Electronics     34       41         38       52                45          64
+
+======================================================================
+2. STUDENT RESULTS (Total, Average, Grade, Result)
+======================================================================
+Student_ID          Name  Total  Average Grade Result  Attendance
+      S101  Aarav Sharma    418     83.6     A   Pass          92
+      S102   Priya Patel    451     90.2    A+   Pass          95
+      S103   Rohan Mehta    348     69.6     C   Pass          81
+      S104    Sneha Iyer    273     54.6     D   Pass          76
+      S105   Karan Singh    210     42.0     E   Fail          64
+      S106  Ananya Desai    407     81.4     A   Pass          90
+      S107  Vikram Joshi    254     50.8     D   Pass          72
+      S108    Meera Nair    396     79.2     B   Pass          88
+      S109   Arjun Reddy    310     62.0     C   Pass          79
+      S110    Isha Gupta    456     91.2    A+   Pass          97
+      S111   Rahul Verma    195     39.0     F   Fail          58
+      S112   Kavya Menon    443     88.6     A   Pass          94
+      S113    Dev Kapoor    340     68.0     C   Pass          83
+      S114 Neha Kulkarni    391     78.2     B   Pass          87
+      S115 Siddharth Rao    303     60.6     C   Pass          77
+      S116    Pooja Bhat    452     90.4    A+   Pass          96
+      S117   Aditya Jain    224     44.8     E   Pass          69
+      S118     Riya Shah    380     76.0     B   Pass          85
+      S119  Manish Yadav    257     51.4     D   Pass          71
+      S120  Tanvi Pillai    417     83.4     A   Pass          91
+
+======================================================================
+3. CLASS SUMMARY
+======================================================================
+Overall class average : 69.25
+Highest average       : Isha Gupta (91.2)
+Lowest average        : Rahul Verma (39.0)
+Passed / Failed       : 18 / 2 (90.0% pass rate)
+Pass rule: >= 35 marks in every subject
+
+======================================================================
+4. GRADE DISTRIBUTION
+======================================================================
+Grade
+A     4
+A+    3
+B     3
+C     4
+D     3
+E     2
+F     1
+
+======================================================================
+5. SUBJECT-WISE ANALYSIS
+======================================================================
+         Subject  Highest  Lowest  Average  Pass_Count
+           Maths       94      29    67.70          18
+         Physics       93      36    66.80          20
+       Chemistry       92      38    67.20          20
+         English       92      50    72.95          20
+Computer_Science       97      36    71.60          20
+
+Best subject (highest average)  : English
+Weakest subject (lowest average): Physics
+
+======================================================================
+6. TOP 5 PERFORMERS
+======================================================================
+Student_ID         Name       Department  Total  Average Grade
+      S110   Isha Gupta      Electronics    456     91.2    A+
+      S116   Pooja Bhat            Civil    452     90.4    A+
+      S102  Priya Patel Computer Science    451     90.2    A+
+      S112  Kavya Menon Computer Science    443     88.6     A
+      S101 Aarav Sharma Computer Science    418     83.6     A
+
+======================================================================
+7. DEPARTMENT-WISE ANALYSIS
+======================================================================
+      Department  Students  Avg_Marks  Avg_Attendance  Passed
+           Civil         5      70.20            83.4       5
+Computer Science         5      77.72            88.0       5
+     Electronics         5      71.40            82.8       4
+      Mechanical         5      57.68            74.8       4
+
+======================================================================
+8. STUDENTS NEEDING ATTENTION
+======================================================================
+Failed students:
+  - S105 Karan Singh (Average 42.0)
+  - S111 Rahul Verma (Average 39.0)
+Low attendance (< 75%):
+  - S105 Karan Singh (64%)
+  - S107 Vikram Joshi (72%)
+  - S111 Rahul Verma (58%)
+  - S117 Aditya Jain (69%)
+  - S119 Manish Yadav (71%)
+
+Full results saved to results.csv
